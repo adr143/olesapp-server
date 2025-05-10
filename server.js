@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import studentRoutes from '../server/routes/studentRecords.routes.js';
+import studentRoutes from './routes/studentRecords.routes.js';
 import cors from 'cors';
 import path from 'path';
 

@@ -1,6 +1,6 @@
 import express from 'express';
 import multer from 'multer';
-import { uploadStudents, getAllStudents } from '../../server/controllers/studentRecords.controller.js';
+import {uploadStudents, getAllStudents} from "../controllers/studentRecords.controller.js";
 
 const router = express.Router();
 

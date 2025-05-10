@@ -1,7 +1,7 @@
 // controllers/studentUpload.js
 import csv from 'csv-parser';
 import fs from 'fs';
-import StudentRecord from "../../server/models/studentRecords.model.js"
+import StudentRecord from "../models/studentRecords.model.js"
 
 export const uploadStudents = async (req, res) => {
     const students = req.body.students;
